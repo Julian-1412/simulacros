@@ -1,0 +1,71 @@
+{
+  "usuarios": [
+    {
+      "name": "Brian",
+      "email": "brian@correo.com",
+      "password": "b12345",
+      "role": "Admin",
+      "id": "5f95"
+    },
+    {
+      "id": "2786",
+      "name": "Cristina",
+      "email": "cristina@correo.com",
+      "password": "c12345",
+      "role": "User"
+    },
+    {
+      "id": "2292",
+      "name": "vannesa",
+      "email": "vannesa@correo.com",
+      "password": "v12345",
+      "role": "User"
+    },
+    {
+      "id": "04a0",
+      "name": "Yony sanchez",
+      "email": "yony@correo.com",
+      "password": "y12345",
+      "role": "User"
+    },
+    {
+      "id": "2d92",
+      "name": "Carlos Cuartas",
+      "email": "carlos@correo.com",
+      "password": "c12345",
+      "role": "User"
+    },
+    {
+      "name": "Santiago alejandro",
+      "email": "santiago@correo.com",
+      "password": "s12345",
+      "role": "User",
+      "id": "1490"
+    },
+    {
+      "id": "8943",
+      "name": "Lady",
+      "email": "lady@correo.com",
+      "password": "l12345",
+      "role": "User"
+    }
+  ],
+  "eventos": [
+    {
+      "title": "Taller de JavaScript SPA",
+      "date": "2026-03-10",
+      "capacity": 25,
+      "description": "Aprende a crear SPAs desde cero.",
+      "id": "1"
+    }
+  ],
+  "registros": [
+    {
+      "id": "a277",
+      "userId": "vannesa@correo.com",
+      "eventId": "1",
+      "eventTitle": "Taller de JavaScript SPA",
+      "date": "2/2/2026"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+
+.managment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: solid #dadde2 3px;
+}
+.managment .user-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 5%;
+}
+.managment .user-content{
+    flex-grow: 1;
+    flex-basis: 200;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.managment .user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #13cbec50;
+    border-radius: 7px;
+    padding: 10px;
+}
+.user-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    padding: 10px;
+    gap: 10px;
+}
+.managment .btn-delete{
+    background-color: #ee0000;
+}
+.managment .user-managment{
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
+    background: #f3f3f35d;
+    backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    border: none;
+    color: #080808;
+    border: solid #dadde2 3px;
+}
+.managment .user-managment::placeholder{
+    color: #080808;
+    opacity: 0.7;
+    font-style: italic;
+    font-weight: bolder;
+}
+select, 
+select::picker(select) {
+    appearance: base-select;
+}
+.managment .role-select{
+    width: 113%;
+    height: 40px;
+    border-radius: 7px;
+    background: #f3f3f35d;
+    backdrop-filter: blur(20px);
+    color: #080808;
+    border: solid #dadde2 3px;
+}
+select::picker(select) {
+    background-color: #f0f0f0;
+    border: 2px solid #f3f3f35d;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding: 10px;
+    color: #080808;
+}
+.managment .data-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    padding: 0 5%;
+}
+.managment .data-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.managment .data-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.managment .user-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    
+    .managment .data-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+}
